@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题 1</title>
+<style type="text/css">
+.style1 {
+				text-align: center;
+}
+.style3 {
+				text-align: center;
+				font-family: 微软雅黑;
+				font-size: 11pt;
+}
+.style4 {
+				border-width: 0px;
+}
+.style5 {
+				text-align: left;
+}
+.style6 {
+				margin-left: 1px;
+}
+.style7 {
+				font-size: 40pt;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 100%">
+				<tr>
+								<td class="style1">
+								<a href="../目录.htm">
+								<img alt="" src="../../图片/wikilogo.png" width="1000" height="100" class="style4" /></a></td>
+				</tr>
+				<tr>
+								<td class="style3">
+								<table style="width: 100%">
+												<tr>
+																<td class="style5">
+																<table style="width: 80%" align="center" class="style6">
+																				<tr>
+																								<td class="style7">概念-密封空间</td>
+																				</tr>
+																</table>
+																<table style="width: 80%" align="center" class="style6">
+																				<tr>
+																								<td>
+																								在星系mod中，密封空间的定义如下：墙壁由固体方块构成，方块间没有空隙<br />
+																								<br />
+																								玩家可以使用氧气密封器将密封空间充满可呼吸氧气<br />
+																								<br />
+																								如果空间正确的密封，那么：<br />
+																								·玩家可以在没有装备供氧设备的情况下利用氧气密封器正常呼吸<br />
+																								·任何需要氧气生存的动物可以正常呼吸（ex：猪、羊、鸡、牛）<br />
+																								·火把将会正常点燃<br />
+																								·氧气检测器将会检测到氧气<br />
+																								·火焰可以持续燃烧，打火石可以正常使用<br />
+																								<br />
+																								如果空间没有正常密封，那么：<br />
+																								·玩家不能在未装备供氧设备的情况下呼吸，会提示氧气配置失效<br />
+																								·需要氧气生存的动物将会死亡<br />
+																								·火把将会熄灭<br />
+																								·氧气检测器检测不到氧气<br />
+																								·火焰将会熄灭，打火石无法使用<br />
+																								<br />
+																								具有/不具有密封性的方块<br />
+																								玩家需要使用具有密封性的方块来建造密封空间<br />
+																								<br />
+																								具有密封性的方块（部分）：<br />
+																								·石头<br />
+																								·木板<br />
+																								·玻璃<br />
+																								·电炉<br />
+																								·显示屏<br />
+																								·活塞<br />
+																								·可密封铝线<br />
+																								·可密封氧气管道<br />
+																								·关闭状态下的空气锁<br />
+																								<br />
+																								不具有密封性的方块（部分）：<br />
+																								·树叶<br />
+																								·羊毛<br />
+																								·萤石<br />
+																								·门<br />
+																								·Archimedes Ships中的Buffers<br />
+																								·侧面放置的楼梯<br />
+																								·单层台阶<br />
+																								·侧面的耕地（当墙壁时不密封，当地板时密封）<br />
+																								·活塞（活动部分）<br />
+																								·铝线<br />
+																								·氧气管道<br />
+																								·活塞关闭时的那一瞬间<br />
+																								<br />
+																								星系mod支持修改配置文件的方式来添加或减少密封方块<br />
+																								<br />
+																								提示<br />
+																								·单台氧气密封器的最大密封空间为1000-1400个方块（这么大的密封房间可以由一台氧气密封器供氧），大约为10*10*10的空间<br />
+																								·包裹密封房间的墙壁将会被算在密封区内，所以可利用区域可能不到10*10*10（这种感觉就像是你买了500G的硬盘，但是可用空间不到500G一样），详细请见下文<br />
+																								·同一密封房间内如果多台氧气密封器安装在一起的话，那么最大供氧空间是会叠加的，经测试，叠加后的最大供氧空间为100000格，使用了80台氧气密封器<br />
+																								·注意区块加载的问题，如果给氧气密封器提供氧气、电力的方框在其他区块的话，可能会出现因为区块未加载导致的断电断氧问题，关于区块加载，详细请见“区块加载”词条<br />
+																								<br />
+																								氧气密封器影响范围实例<br />
+																								·密封区域高度依赖精确的几何结构，如果两台或多台氧气密封器间隔在7格及以内，并且两台密封器所在的区块都已加载，那么两台密封器的供氧空间将会自动叠加<br />
+																								·如下图是一个普通矿道的横截面，如果想要密封它，算在氧气密封器密封的空间方块数中的不仅仅有中间用红字表示的空气方块，用黑字表示的六个方块也是要算在密封方块个数中的，这就是上文所说的”墙壁也会被算在密封区内“。<br />
+																								</td>
+																				</tr>
+																</table>
+																<table style="width: 80%" align="center" class="style6">
+																				<tr>
+																								<td><img alt="" src="../../图片/翻译必要图片/概念密封空间矿道横截面.png" width="455" height="256" /></td>
+																				</tr>
+																</table>
+																</td>
+												</tr>
+								</table>
+								</td>
+				</tr>
+				<tr>
+								<td class="style1">
+								<a href="http://www.infinity-studio.org/">
+								<img alt="" src="../../图片/is水印.png" width="736" height="309" class="style4" /></a></td>
+				</tr>
+</table>
+
+</body>
+
+</html>
